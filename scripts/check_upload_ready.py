@@ -10,6 +10,8 @@ REQUIRED_FILES = (
     "README.md",
     "LICENSE",
     "pyproject.toml",
+    ".editorconfig",
+    "MANIFEST.in",
     "AGENTS.md",
     "SECURITY.md",
     "PRIVACY.md",
@@ -19,6 +21,7 @@ REQUIRED_FILES = (
     "structured_config_diff/cli.py",
     "structured_config_diff/differ.py",
     "structured_config_diff/report.py",
+    "scripts/check_upload_ready.py",
     "tests/test_cli.py",
 )
 

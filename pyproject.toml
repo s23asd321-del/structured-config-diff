@@ -26,6 +26,11 @@ classifiers = [
 ]
 dependencies = []
 
+[project.urls]
+Homepage = "https://github.com/s23asd321-del/structured-config-diff"
+Repository = "https://github.com/s23asd321-del/structured-config-diff"
+Issues = "https://github.com/s23asd321-del/structured-config-diff/issues"
+
 [project.optional-dependencies]
 dev = ["pytest>=8"]
 

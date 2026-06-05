@@ -3,9 +3,19 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from structured_config_diff.cli import main
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+
+
+def test_cli_version_exits_zero(capsys):
+    with pytest.raises(SystemExit) as exc_info:
+        main(["--version"])
+
+    assert exc_info.value.code == 0
+    assert "config-diff 0.1.0" in capsys.readouterr().out
 
 
 def test_cli_diff_default_exits_zero_with_diff(tmp_path, capsys):

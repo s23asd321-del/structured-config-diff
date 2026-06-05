@@ -13,3 +13,4 @@ The tool is deliberately narrow:
 
 The output is a report that groups differences by kind and applies best-effort redaction to sensitive-looking paths.
 
+After installation, `config-diff --version` prints the installed CLI version.

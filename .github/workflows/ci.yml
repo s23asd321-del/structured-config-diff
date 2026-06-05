@@ -35,6 +35,9 @@ jobs:
       - name: Test
         run: python -m pytest
 
+      - name: CLI version smoke check
+        run: config-diff --version
+
       - name: CLI entry point smoke check
         run: config-diff diff examples/before/config.json examples/after/config.json --format json --no-values
 

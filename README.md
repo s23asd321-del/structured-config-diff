@@ -76,6 +76,12 @@ Or, after installing the CLI entry point:
 config-diff diff examples/before/config.json examples/after/config.json
 ```
 
+Check the installed version:
+
+```bash
+config-diff --version
+```
+
 ## JSON Example
 
 ```bash
@@ -127,6 +133,7 @@ config-diff diff <before-path> <after-path> [options]
 
 Options:
 
+- `--version`: print the installed CLI version.
 - `--format text`: human-readable terminal report. This is the default.
 - `--format markdown`: Markdown report for PRs and docs.
 - `--format json`: machine-readable report.
