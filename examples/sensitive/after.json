@@ -1,0 +1,14 @@
+{
+  "auth": {
+    "api_key": "FAKE_API_KEY_ROTATED_FOR_TESTING_ONLY",
+    "token": "FAKE_TOKEN_ROTATED_FOR_TESTING_ONLY",
+    "cookie": "FAKE_COOKIE_ROTATED_FOR_TESTING_ONLY"
+  },
+  "database": {
+    "password": "FAKE_PASSWORD_ROTATED_FOR_TESTING_ONLY"
+  },
+  "service": {
+    "name": "demo-service-v2"
+  }
+}
+

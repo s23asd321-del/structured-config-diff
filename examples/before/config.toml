@@ -1,0 +1,24 @@
+plugins = ["auth", "metrics"]
+
+[app]
+name = "demo-service"
+environment = "staging"
+debug = false
+
+[server]
+host = "localhost"
+port = 8080
+workers = 2
+
+[logging]
+level = "info"
+format = "json"
+destinations = ["stdout", "file"]
+
+[features]
+signup = true
+search = false
+legacyMode = true
+
+[limits]
+requestTimeoutSeconds = 30

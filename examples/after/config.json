@@ -1,0 +1,29 @@
+{
+  "app": {
+    "name": "demo-service",
+    "environment": "production",
+    "debug": "false"
+  },
+  "server": {
+    "host": "localhost",
+    "port": 9090,
+    "workers": 4,
+    "tls": {
+      "enabled": true
+    }
+  },
+  "logging": {
+    "level": "warn",
+    "destinations": ["stdout", "syslog", "audit"]
+  },
+  "features": {
+    "signup": true,
+    "search": true,
+    "auditTrail": true
+  },
+  "limits": {
+    "requestTimeoutSeconds": 45
+  },
+  "plugins": ["auth", "tracing", "metrics"]
+}
+
