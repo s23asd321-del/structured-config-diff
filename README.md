@@ -258,6 +258,11 @@ See `ROADMAP.md` for planned improvements. First-version priorities are conserva
 
 See `CONTRIBUTING.md`. Changes that add a diff kind or alter CLI behavior should include tests and documentation updates.
 
+## Contributors
+
+- s23asd321-del: project owner and maintainer
+- OpenAI Codex: AI-assisted development support.
+
 ## Security
 
 See `SECURITY.md`. Do not post real configuration files, credentials, logs, or sensitive reports in public issues.

@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
 authors = [
-  { name = "structured-config-diff contributors" }
+  { name = "s23asd321-del" }
 ]
 keywords = ["configuration", "diff", "json", "toml", "cli"]
 classifiers = [
